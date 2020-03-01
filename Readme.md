@@ -7,11 +7,13 @@
 ** Currency Exchange Service ports 8000, 8001, 8002 **
 
 **  http://localhost:8000/currency-exchange/from/USD/to/INR **
+**  http://localhost:8000/h2-console/ **  
 
 ```
 * Multiple instances of Limit Service can load the config changes from spring
 * cloud config server rather than changing and bundling in each server
- 
+* Updated the JPA Mappings with data.sql and entity annotations. 
+
 
 ```
 
